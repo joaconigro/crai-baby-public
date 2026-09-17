@@ -1,8 +1,3 @@
----
-title: CrAI Baby
-layout: default
----
-
 # CrAI Baby
 
 CrAI Baby helps parents and caregivers understand why their baby is
@@ -13,6 +8,14 @@ recordings are never uploaded anywhere: everything happens locally on
 your phone. You can also correct a prediction, and the app learns from
 that feedback to get better over time on your device.
 
+This repository hosts the public documentation for the app, published
+via GitHub Pages at [joaconigro.github.io/crai-baby-public](https://joaconigro.github.io/crai-baby-public/).
+
 ## Documentation
 
-- [Privacy Policy](privacy-policy.html)
+- [Privacy Policy](https://joaconigro.github.io/crai-baby-public/privacy-policy.html)
+
+## App
+
+The CrAI Baby app is available at
+TODO: add stores links once they are ready
