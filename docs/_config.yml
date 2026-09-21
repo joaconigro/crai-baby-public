@@ -1,3 +1,11 @@
-theme: jekyll-theme-cayman
+url: "https://joaconigro.github.io"
+baseurl: "/crai-baby-public"
 title: CrAI Baby
-description: Privacy policy and terms of service for the CrAI Baby app
+tagline: Your baby cry translator
+description: >-
+  CrAI Baby suggests why your baby is crying, using a model that runs
+  entirely on your phone. Privacy policy and terms of service.
+email: joaco.software@gmail.com
+
+# No Jekyll theme: the layouts in _layouts/ and assets/css/style.css are
+# the whole site, styled from the app's own design tokens.

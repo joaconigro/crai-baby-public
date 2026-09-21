@@ -1,0 +1,69 @@
+---
+layout: base
+---
+<main class="wrap">
+
+  <div class="hero">
+    <div class="hero-copy">
+      <img class="hero-mark" src="{{ '/assets/img/icon.png' | relative_url }}"
+           alt="{{ site.title }} app icon">
+      <h1>{{ site.title }}</h1>
+      <p class="tagline">{{ page.tagline }}</p>
+      {{ content }}
+      <ul class="badges">
+        {% for badge in page.badges %}<li>{{ badge }}</li>{% endfor %}
+      </ul>
+    </div>
+    <div class="hero-photo" role="img"
+         aria-label="A parent holding a crying baby"></div>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <p class="section-note">Three taps, no account, no connection.</p>
+    <div class="cards">
+      {% for step in page.steps %}
+      <div class="card">
+        <span class="step">{{ forloop.index }}</span>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Inside the app</h2>
+    <p class="section-note">{{ page.shots_note }}</p>
+    <div class="shots">
+      {% for shot in page.screenshots %}
+      <img src="{{ shot.src | relative_url }}" alt="{{ shot.alt }}" loading="lazy">
+      {% endfor %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Documentation</h2>
+    <p class="section-note">The legal bits, in plain language.</p>
+    <div class="doclinks">
+      <a class="doclink" href="{{ '/privacy-policy.html' | relative_url }}">
+        <strong>Privacy Policy →</strong>
+        <span>What happens to the audio, and to your corrections.</span>
+      </a>
+      <a class="doclink" href="{{ '/terms-of-service.html' | relative_url }}">
+        <strong>Terms of Service →</strong>
+        <span>What the app promises, and what it deliberately doesn't.</span>
+      </a>
+    </div>
+  </section>
+
+  <p class="notice">
+    <strong>CrAI Baby is not a medical device.</strong> It suggests a likely
+    reason for a cry — it doesn't diagnose anything, it isn't a baby monitor,
+    and it can't detect an emergency. Keep watching your baby, trust your own
+    judgment, and call a doctor or your local emergency number if you're
+    worried. See the <a href="{{ '/terms-of-service.html' | relative_url }}">Terms
+    of Service</a> for the full statement.
+  </p>
+
+</main>

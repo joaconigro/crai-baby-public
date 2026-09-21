@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<header class="topbar">
+  <div class="wrap">
+    <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="">
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="back" href="{{ '/' | relative_url }}">← Back</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <article class="prose">{{ content }}</article>
+</main>

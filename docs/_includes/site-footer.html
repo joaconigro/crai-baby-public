@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© {{ site.time | date: "%Y" }} {{ site.title }}</span>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/privacy-policy.html' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms-of-service.html' | relative_url }}">Terms</a>
+      <a href="mailto:{{ site.email }}">Contact</a>
+    </nav>
+  </div>
+</footer>
