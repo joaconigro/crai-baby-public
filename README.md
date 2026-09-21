@@ -14,6 +14,7 @@ via GitHub Pages at [joaconigro.github.io/crai-baby-public](https://joaconigro.g
 ## Documentation
 
 - [Privacy Policy](https://joaconigro.github.io/crai-baby-public/privacy-policy.html)
+- [Terms of Service](https://joaconigro.github.io/crai-baby-public/terms-of-service.html)
 
 ## App
 

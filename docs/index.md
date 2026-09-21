@@ -16,3 +16,4 @@ that feedback to get better over time on your device.
 ## Documentation
 
 - [Privacy Policy](privacy-policy.html)
+- [Terms of Service](terms-of-service.html)
